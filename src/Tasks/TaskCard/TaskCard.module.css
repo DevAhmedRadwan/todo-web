@@ -1,0 +1,13 @@
+.card {
+  margin: 20px;
+  padding: 20px;
+}
+
+.btnsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.spacer {
+  width: 20px;
+}

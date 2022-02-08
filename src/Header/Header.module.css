@@ -1,0 +1,14 @@
+.brand {
+  cursor: pointer;
+}
+
+.searchInput {
+  margin: 10px;
+  min-width: 200px;
+  width: 50%;
+}
+
+.createTaskBtn {
+  width: 120px;
+  min-width: 120px;
+}

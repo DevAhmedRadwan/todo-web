@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.formCard {
+  width: 500px;
+  min-width: 280px;
+  padding: 25px;
+}
+
+.title {
+  margin: 15px 0px 15px 0px;
+}
+
+.description {
+  margin: 15px 0px 15px 0px;
+}
+
+.submitBtn {
+  margin: 5px;
+  width: 50%;
+}

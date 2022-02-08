@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  todo-web:
+    image: todo-web:latest
+    volumes:
+      - .:/web/
+    command: npm run start
+    network_mode: host
