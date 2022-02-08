@@ -37,16 +37,19 @@ export const deleteTaskRequest = (id) => ({
   id,
 });
 
+// set the task state
 export const setTask = (task) => ({
   type: SET_TASK,
   task,
 });
 
+// set the tasks state
 export const setTasks = (tasks) => ({
   type: SET_TASKS,
   tasks,
 });
 
+// remove tasks from the tasks state
 export const deleteTask = (task) => ({
   type: DELETE_TASK,
   removedtask: task,
