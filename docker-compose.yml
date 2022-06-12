@@ -6,4 +6,5 @@ services:
     volumes:
       - .:/web/
     command: npm run start
-    network_mode: host
+    ports:
+      - 3000:3000
